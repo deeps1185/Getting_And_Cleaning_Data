@@ -17,7 +17,7 @@ The raw data is obrained from "Human Activity Recognition Using Smartphones Data
 I have uploaded the file `Clean_test_dat.R`, which contains the script for performing the following tasks
 - Extracts and Merges the training and the test sets to create one data set called `merged_data` (Task 1).
 - Appropriately labels the `merged_data` data-set with descriptive variable names found in `features.txt` (Task 4).
-- Extracts only the measurements on the mean and standard deviation for each measurement and puts this data in the variable `ms_md` (Task 2). **Only the variables with strings `mean()` and `std()`**.
+- Extracts only the measurements on the mean and standard deviation for each measurement and puts this data in the variable `ms_md` (Task 2). **Only the variables with strings `mean()` and `std()` are considered**.
 - Uses descriptive activity names to name the activities in the data set `ms_md`. The descriptive activity names are obtained from the file `activity_lables.txt` (Task 3).
 - Using the `ms_md` data-set, the script creates a second, independent tidy data set `tidy_ms_md` with the average of each variable for each activity and each subject. (Task 5) 
 - This tidy data set is written in the text file `tidy_merged_data.txt`.
