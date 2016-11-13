@@ -17,7 +17,7 @@ The raw data is obrained from "Human Activity Recognition Using Smartphones Data
 I have uploaded the file `Clean_test_dat.R`, which contains the script for performing the following tasks
 - Extracts and Merges the training and the test sets to create one data set called `merged_data` (Task 1).
 - Appropriately labels the `merged_data` data-set with descriptive variable names found in `features.txt` (Task 4).
-- Extracts only the measurements on the mean and standard deviation for each measurement and puts this data in the variable `ms_md` (Task 2).
+- Extracts only the measurements on the mean and standard deviation for each measurement and puts this data in the variable `ms_md` (Task 2). **Only the variables with strings `mean()` and `std()`**.
 - Uses descriptive activity names to name the activities in the data set `ms_md`. The descriptive activity names are obtained from the file `activity_lables.txt` (Task 3).
 - Using the `ms_md` data-set, the script creates a second, independent tidy data set `tidy_ms_md` with the average of each variable for each activity and each subject. (Task 5) 
 - This tidy data set is written in the text file `tidy_merged_data.txt`.
@@ -26,6 +26,7 @@ I have uploaded the file `Clean_test_dat.R`, which contains the script for perfo
 
 - `README.md`: Explains the data-set and the R script.
 - `Codebook.md`: Modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information
-- `Clean_test_data.R` - R script for performing the tasks listed in **Description of analyses**
+- `run_analysis.R` - R script for performing the tasks listed in **Description of analyses**. **It is important that the R script is placed outside the folder `UCI HAR Dataset`**
 - `tidy_merged_data.txt` - Text file containing the tidy data.
+
 
